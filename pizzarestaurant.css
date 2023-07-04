@@ -1,0 +1,102 @@
+* {
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
+.navbar {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    position: relative;
+}
+ 
+.name {
+    display: flex;
+    font-size: xx-large;
+    padding-top: 1.2vw;
+    padding-left: 2vw;
+}
+ 
+ul {
+    list-style: none;
+    display: flex;
+    margin-left: 10vw;
+}
+ 
+li {
+    padding-top: 1vw;
+    padding-left: 2vw;
+}
+ 
+.my-connect {
+    margin-inline: auto;
+    display: flex;
+    margin-right: 10px;
+}
+ 
+p {
+    margin-inline: auto;
+    margin-right: 35px;
+    padding-top: 1vw;
+}
+ 
+img {
+    margin-inline: auto;
+}
+ 
+.hero-section {
+    background-image: url("https://cdn.pixabay.com/photo/2016/04/09/09/22/pizza-1317699_1280.jpg");
+    background-color: #cccccc;
+}
+ 
+h4 {
+    border-bottom: 5px solid red;
+    width: max-content;
+}
+ 
+.my-location {
+    padding-top: 20px;
+}
+.my-phone {
+    padding-top: 20px;
+}
+ 
+.row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+ 
+.gallery {
+    justify-content: center;
+}
+  
+.column {
+    flex: 50%;
+    padding: 0 4px;
+}
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+ 
+.child-1 {
+    margin-left: 5%;
+}
+ 
+.child-2 {
+    margin-right: 5%;
+    padding: 5%;
+}
+ 
+.parent {
+    justify-content: space-between;
+}
+ 
+h3 {
+    color: yellow;
+}
+ 
